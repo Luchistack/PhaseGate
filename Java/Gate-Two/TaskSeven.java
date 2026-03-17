@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class TaskSeven{
+
+public static void main(String [] args){
+
+Scanner input = new Scanner(System.in);
+
+
+int total = 0;
+
+for(int count = 0; count <= 4; count ++){
+System.out.println("Enter a Number: ");
+int number = input.nextInt();
+
+
+total += number;
+
+System.out.printf("%d + %d = %d\n", number, number , total);
+
+
+}
+}
+
+
+
+}
+
+
