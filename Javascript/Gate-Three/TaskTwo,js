@@ -1,0 +1,20 @@
+def largest_array_index(numbers):
+
+    largest = 0
+    array_position = 0
+
+    for outterloop in range(len(numbers)):
+
+        for innerloop in range(outterloop):
+
+            if innerloop > largest :
+
+                largest = innerloop
+
+            if outterloop > array_position:
+
+               array_position = outterloop    
+
+               result = largest , array_position
+
+            return result
