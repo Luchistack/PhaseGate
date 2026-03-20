@@ -4,7 +4,7 @@ total = 0
 
 for number in range(1,numb + 1):
 
-    total = number + number
+    total += number
 
     result = f"{number} + {number} = {total}"
     

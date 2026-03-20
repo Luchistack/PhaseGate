@@ -15,7 +15,7 @@ int total = 0;
 
 for(int count = 1; count < number + 1; count ++){
 
-    total = count + count;
+    total += count;
 
     System.out.printf("%d + %d = %d\n", count, count , total);
     

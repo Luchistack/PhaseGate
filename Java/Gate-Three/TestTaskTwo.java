@@ -11,31 +11,31 @@ public class TestTaskTwo{
 
 
 
-
-    @Test
-    public void testLargestNumberInTwoTheArray(){
-
-    TaskTwo check = new TaskTwo;
-    
-    String characters = "AaaBBc"
-
-    actualResult = check.CountLettersInString(characters);
-
-    result = "A1a2B2C1"
-
-
-    assertEquals(actualResult, result)
+//
+//    @Test
+//    public void testLargestNumberInTwoTheArray(){
+//
+//    TaskTwo check = new TaskTwo();
+//    
+//    String characters = "AaaBBc";
+//
+//    actualResult = check.CountLettersInString(characters);
+//
+//    result = "A1a2B2C1";
+//
+//
+//    assertEquals(actualResult, result);
     
 
        
 
-    }
+//    }
 
 
     @Test
     public void testLargestNumberInTwoTheArray(){
 
-    TaskTwo check = new TaskTwo;
+    TaskTwo check = new TaskTwo();
     
 
     double [] [] numbers = { {45.2, 90.28, 77.1},
@@ -45,18 +45,13 @@ public class TestTaskTwo{
 
     double [] actualResult = check.LargestArrayIndex(numbers);
 
-    double [] result = 90.28
+    double [] result = 90.28;
 
 
-    assertEquals(actualResult, result)
+    assertEquals(actualResult, result);
     
 
        
 
     }
-
-
-
 }
-
-
