@@ -72,7 +72,7 @@ totalPasses ++;
 
 }else{
 
-System.out.println("Wrong answer ⛔️, one more attempt 💪️");
+System.out.println("Wrong answer ⛔️");
 
 }
 

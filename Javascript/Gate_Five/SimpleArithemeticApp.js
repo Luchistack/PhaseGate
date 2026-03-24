@@ -68,7 +68,7 @@ totalPasses ++;
 
 }else{
 
-console.log("Wrong answer ⛔️, one more attempt 💪️");
+console.log("Wrong answer ⛔️");
 
 }
 
