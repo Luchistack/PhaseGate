@@ -34,8 +34,8 @@ def remove_car(parking_lot):
 
         else:
 
-            result = "This space is already free"
-
+            result2 = "This space is already free"
+            return result2
 
 def  view_parking_space(parking_lot):
     
@@ -71,7 +71,7 @@ Select an Option: """))
         elif choice == 3:
             view_parking_space(parking_lot)
         elif choice == 4:
-            r("Exiting... GoodBye")
+            ("Exiting... GoodBye")
             break
         else:
             print("Invalid entry choice")
