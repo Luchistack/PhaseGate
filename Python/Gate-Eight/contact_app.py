@@ -20,9 +20,10 @@
 
 
 
-def add_contact(first_name, last_name, phone_number):
+add_new_contact = []
 
-        add_new_contact = []
+
+def add_contact(first_name, last_name, phone_number):
 
         first_name = input("Enter First Name: ").lower()
         add_new_contact.append(first_name)
@@ -35,24 +36,29 @@ def add_contact(first_name, last_name, phone_number):
 
         if first_name in first_name and last_name in last_name and phone_number in phone_number:
 
-            print("Contact Added Successfully!")        
+            print("Contact Added Successfully!") 
+       
             return add_new_contact
 
 
 
-def remove_contact(phone_number):
+def remove_contact(first_name, last_name, phone_number):
 
-    add_new_contact = ["07080100701"]
+    phone_number = input("Enter a number to delete contact: ")
 
-    delete_number = input("Enter phone number to delete: ")
+    if(add_new_contact == phone_number):
 
-    if delete_number == phone_number:
+        add_new_contact.remove(first_name)
 
-        add_new_contact.remove(delete_number)
+        add_new_contact.remove(last_name)
+
+        add_new_contact.remove(phone_number)
 
         print("contact removed successfully")
         
-        return add_new_contact
+    return add_new_contact
+
+
 
 
 #def main():
