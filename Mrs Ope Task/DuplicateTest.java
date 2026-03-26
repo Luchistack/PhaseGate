@@ -1,7 +1,7 @@
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 
 public class DuplicateTest{
@@ -20,7 +20,7 @@ public class DuplicateTest{
     int [] expectedResult = {9, 3, 1};
 
 
-    assertEquals(actualResult, expectedResult);
+    assertArrayEquals(actualResult, expectedResult);
 
 
 
