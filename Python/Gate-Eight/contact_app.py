@@ -34,14 +34,16 @@ def add_contact(first_name, last_name, phone_number):
         phone_number = input("Enter Phone Number: ").lower()
         add_new_contact.append(phone_number)
 
-        if first_name in first_name and last_name in last_name and phone_number in phone_number:
+#        if first_name in first_name and last_name in last_name and phone_number in phone_number:
 
             print("Contact Added Successfully!") 
        
             return add_new_contact
 
-
-
+#     contact =  [first_name.lower(), last_name.lower(), phone_number.lower()]
+#     add_new_contact.append(contact)
+#     return contact
+#
 def remove_contact(first_name, last_name, phone_number):
 
     phone_number = input("Enter a number to delete contact: ")
@@ -79,18 +81,19 @@ def remove_contact(first_name, last_name, phone_number):
 #
 #    if choice == 1:
 #       add_contact(first_name, last_name, phone_number)
-#    if choice == 2:
+#    elif choice == 2:
 #        remove_contact(phone_number)
-#    if choice == 3:
+#    elif choice == 3:
 #       find_contact_by_phone_number(phone_number)
-#    if choice == 4:
+#    elif choice == 4:
 #        find_contact_by_first_name(first_name)
-#    if choice == 5:
+#    elif choice == 5:
 #        find_contact_by_last_name(last_name)
-#    if choice == 6:
+#    elif choice == 6:
 #        edit_contact(first_name, last_name, phone_number)
-#
-#
+    else:
+        print("Goodbye...")
+
 #
 #
 #
